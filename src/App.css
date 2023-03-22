@@ -1,0 +1,140 @@
+Body {
+  font-family: "Roboto", sans-serif;
+  color: #948f8f;
+}
+
+.project {
+  border: 1px solid #dee6f0;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.185) 1px 5px 5px;
+  display: block 0;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.card {
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 5px 5px;
+}
+
+.city {
+  color: #727171;
+}
+
+.temperature {
+  font-size: 90px;
+  line-height: 1;
+}
+.today-temperature .active {
+  color: #797979;
+  cursor: default;
+}
+
+.today-temperature .active:hover {
+  text-decoration: none;
+}
+
+.day {
+  font-weight: 700;
+}
+
+.units {
+  position: relative;
+  top: -40px;
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forecast-day {
+  font-size: 16px;
+}
+
+.forecast-temp {
+  font-size: 13px;
+}
+
+.btn-primary {
+  background-color: rgb(96, 130, 244);
+  border-color: rgb(44, 41, 223);
+}
+
+.btn-primary:hover {
+  background: rgb(158, 180, 240);
+  color: rgb(98, 96, 244);
+  border-color: rgb(118, 96, 244);
+}
+
+.btn-primary:active {
+  background: rgb(88, 112, 219);
+  color: rgb(53, 41, 216);
+  border-color: rgb(98, 96, 244);
+  box-shadow: rgb(244, 108, 96 /25%);
+}
+
+.btn-primary:focus {
+  background-color: rgb(144, 197, 246);
+  border-color: rgb(111, 96, 244);
+  box-shadow: rgb(244, 108, 96 /25%);
+  color: white;
+}
+
+.form-control:focus {
+  border-color: rgb(96, 123, 244);
+  box-shadow: rgb(244, 108, 96 /25%);
+}
+
+h1 {
+  color: #5c5a5a;
+  display: block;
+  font-size: 40px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+h3 {
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+}
+
+ul {
+  font-size: 14px;
+  box-sizing: inherit;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  padding: 0;
+}
+
+footer {
+  font-size: 13px;
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+}
+
+img {
+  margin: 0 auto;
+}
+
+a {
+  color: rgb(106, 96, 244);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(144, 197, 246);
+}
